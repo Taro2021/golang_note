@@ -1,3 +1,11 @@
+用户主页涉及接口：
+
+- 注册POST /douyin/user/register/
+- 登录POST /douyin/user/login/
+- 用户信息GET /douyin/user/
+- 发布列表 GET /douyin/publish/list/
+- 喜欢列表 GET /douyin/favorite/list/
+- 
 #### 表设计
 
 三张表：用户实体表，用户关系表，用户视频关系表
